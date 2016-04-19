@@ -1,0 +1,51 @@
+﻿生成启动时间为 2016/4/17 21:00:12。
+     1>项目“F:\mid test\MyQBH\MyQBH\MyQBH.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I_CRT_SECURE_NO_WARNINGS /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MyQBH.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 d:\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I_CRT_SECURE_NO_WARNINGS /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MyQBH.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Buffer.cpp getmfcc.cpp MyQBH.cpp MyQBHDlg.cpp Pipe.cpp PtrFifo.cpp SoundBase.cpp SoundFile.cpp SoundIn.cpp
+         SoundIn.cpp
+         SoundFile.cpp
+         SoundBase.cpp
+         PtrFifo.cpp
+         Pipe.cpp
+         MyQBHDlg.cpp
+         MyQBH.cpp
+         getmfcc.cpp
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(125): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(188): warning C4244: “参数”: 从“double”转换到“const std::complex<float>::_Ty”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(356): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(358): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(360): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(364): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(365): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(375): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(412): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(414): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(416): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(420): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\mid test\myqbh\myqbh\getmfcc.cpp(421): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+         Buffer.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0804" /IDebug\ /nologo /fo"Debug\MyQBH.res" MyQBH.rc 
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\mid test\MyQBH\Debug\MyQBH.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\mid test\MyQBH\Debug\MyQBH.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\mid test\MyQBH\Debug\MyQBH.lib" /MACHINE:X86 Debug\MyQBH.res
+         Debug\Buffer.obj
+         Debug\getmfcc.obj
+         Debug\MyQBH.obj
+         Debug\MyQBHDlg.obj
+         Debug\Pipe.obj
+         Debug\PtrFifo.obj
+         Debug\SoundBase.obj
+         Debug\SoundFile.obj
+         Debug\SoundIn.obj
+         Debug\stdafx.obj
+         MyQBH.vcxproj -> F:\mid test\MyQBH\Debug\MyQBH.exe
+     1>已完成生成项目“F:\mid test\MyQBH\MyQBH\MyQBH.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:32.12
